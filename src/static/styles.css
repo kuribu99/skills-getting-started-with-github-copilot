@@ -86,12 +86,7 @@ section h3 {
 
 .activity-card ul.participants-list {
   list-style: none; /* Hide bullet points */
-  padding-left: 0;  /* Remove left padding */
-  margin-top: 10px;
-  background-color: #e8f4fc; /* Light blue background for visibility */
-  border: 1px solid #b3e5fc; /* Border to define the section */
-  border-radius: 5px; /* Rounded corners */
-  padding: 10px; /* Padding for spacing */
+  padding-left: 10px;  /* Override to match base padding */
 }
 
 .activity-card li {
