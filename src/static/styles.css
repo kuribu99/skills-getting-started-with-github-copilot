@@ -85,8 +85,8 @@ section h3 {
 }
 
 .activity-card ul.participants-list {
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style: none; /* Hide bullet points */
+  padding-left: 0;  /* Remove left padding */
   margin-top: 10px;
   background-color: #e8f4fc; /* Light blue background for visibility */
   border: 1px solid #b3e5fc; /* Border to define the section */
@@ -98,6 +98,10 @@ section h3 {
   margin-bottom: 5px;
   color: #333; /* Darker text for better readability */
   font-weight: bold; /* Bold text for emphasis */
+  display: flex; /* Align email and delete icon */
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
 }
 
 .activity-card ul.participants-list li {
@@ -166,6 +170,23 @@ button:hover {
 
 .hidden {
   display: none;
+}
+
+/* Icon button for delete */
+.icon-button {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.icon-button:hover,
+.icon-button:focus {
+  background: rgba(198, 40, 40, 0.08);
 }
 
 footer {
