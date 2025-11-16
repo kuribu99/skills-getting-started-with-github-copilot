@@ -84,7 +84,23 @@ section h3 {
   padding: 10px; /* Padding for spacing */
 }
 
+.activity-card ul.participants-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  background-color: #e8f4fc; /* Light blue background for visibility */
+  border: 1px solid #b3e5fc; /* Border to define the section */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding for spacing */
+}
+
 .activity-card li {
+  margin-bottom: 5px;
+  color: #333; /* Darker text for better readability */
+  font-weight: bold; /* Bold text for emphasis */
+}
+
+.activity-card ul.participants-list li {
   margin-bottom: 5px;
   color: #333; /* Darker text for better readability */
   font-weight: bold; /* Bold text for emphasis */
